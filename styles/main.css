@@ -1,0 +1,53 @@
+#body {
+  background: #00619E; 
+}
+
+#headerTitle {
+  color: white;
+  margin: 10px;
+}
+
+.container {
+  background: #001624;
+  width: 100% !important;
+}
+
+.content {
+  width: 100%;
+  clear: both;
+}
+.footer {
+  color: white;
+  font-size: 1.1em;
+  height: 100%;
+  text-align: center !important;
+}
+
+.menu {
+  border: 1px solid red;
+  float: right;
+  padding: 15px 0 5px 0;
+  width: 45%;
+}
+
+.menu a {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: font-size 1.2s;
+}
+
+.menu a:hover {
+  font-size: 1.6em;
+}
+
+.menu li {
+  display: inline;
+  padding: 0 15px;
+}
+
+h1 {
+  border: 1px solid red;
+  float: left;
+  width: 45%;
+}

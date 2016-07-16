@@ -1,44 +1,59 @@
-#body {
-  background: #00619E; 
-}
-
 #headerTitle {
   color: white;
   margin: 10px;
 }
 
+.btn-default {
+  background: #241703 !important;
+  color: white !important;
+  font-size: 1.4em !important;
+  margin:0 15px 40px 15px !important;
+}
+
+.btn-default:hover {
+  background: white !important;
+  color: #555 !important;
+}
+
 .container {
-  background: #001624;
+  background: #241703;
   width: 100% !important;
 }
 
 .content {
-  width: 100%;
   clear: both;
+  height: 100% !important;
+  width: 100%;
 }
+
+.fontHanaleiFill {
+  font-family: "Hanalei Fill", Arial;
+}
+
 .footer {
   color: white;
   font-size: 1.1em;
-  height: 100%;
   text-align: center !important;
+  width: 100%;
 }
 
 .menu {
   border: 1px solid red;
   float: right;
   padding: 15px 0 5px 0;
-  width: 45%;
+  width: 30%;
 }
 
 .menu a {
   color: white;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-decoration: none;
   transition: font-size 1.2s;
 }
 
 .menu a:hover {
-  font-size: 1.6em;
+  font-size: 1.7em;
+  color: #777;
 }
 
 .menu li {
@@ -46,8 +61,54 @@
   padding: 0 15px;
 }
 
+.pageAboutMe {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/9/95/Ponte_D._Lu%C3%ADs_I_e_metro.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+  padding: 50px 0;
+}
+
+.pageHome {
+  background: url("http://www.hotel-r.net/im/hotel/lv/office-24.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+  padding: 50px 0;
+}
+
+.pagePortfolio {
+  background: url("http://www.publicdomainpictures.net/pictures/70000/velka/old-white-background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+  padding: 50px 0;
+}
+
+.pageContact {
+  background: url("http://honline.whizzpeople.netdna-cdn.com/wp-content/uploads/2013/08/contact1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+  padding: 50px 0;
+}
+
 h1 {
   border: 1px solid red;
   float: left;
   width: 45%;
+}
+
+h2.fontHanaleiFill {
+  padding-top: 150px;
+  color: #241703;
+  font-size: 4em;
+}
+
+h3 {
+  color: #241703;
+  padding: 0px 0 15px 0;
+}
+
+hr {
+  border-color: #241703 !important;
+  border: none;
+  margin: 5%;
+  padding-top: 40px;
 }

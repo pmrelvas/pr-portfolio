@@ -3,6 +3,17 @@
   margin: 10px;
 }
 
+.aboutText {
+  color: black;
+  background: rgba(255, 255, 255, .6);
+  border: 1px solid #333;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 10px;
+  text-align: justify;
+  width: 50%;
+}
+
 .btn-default {
   background: #241703 !important;
   color: white !important;
@@ -30,6 +41,11 @@
   font-family: "Hanalei Fill", Arial;
 }
 
+.fontJosefinSans {
+  font-family: "Josefin Sans", Arial;
+  font-size: 1.4em !important;
+}
+
 .footer {
   color: white;
   font-size: 1.1em;
@@ -41,7 +57,6 @@
   border: 1px solid red;
   float: right;
   padding: 15px 0 5px 0;
-  width: 30%;
 }
 
 .menu a {

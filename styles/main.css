@@ -21,9 +21,27 @@
   margin:0 15px 40px 15px !important;
 }
 
+.btn-contact {
+  background: #444 !important;
+}
+
 .btn-default:hover {
   background: white !important;
   color: #555 !important;
+}
+
+.portfolioCaption {
+  background: rgba(0, 0, 0, .8);
+  color: white;
+  padding: 5px;
+}
+
+.contactButtons {
+  margin-top: 120px;
+}
+
+.contactText {
+  margin-top: 150px;
 }
 
 .container {
@@ -35,6 +53,10 @@
   clear: both;
   height: 100% !important;
   width: 100%;
+}
+
+.email {
+  font-size: 1.7em;
 }
 
 .fontHanaleiFill {
@@ -54,7 +76,6 @@
 }
 
 .menu {
-  border: 1px solid red;
   float: right;
   padding: 15px 0 5px 0;
 }
@@ -104,8 +125,12 @@
   padding: 50px 0;
 }
 
+.sectionTitle {
+  font-color: black;
+  font-size: 3.0em !important;
+}
+
 h1 {
-  border: 1px solid red;
   float: left;
   width: 45%;
 }
